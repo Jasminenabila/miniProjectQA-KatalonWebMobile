@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "809CFC8B7CBED024F42CAF6015973F4B",
+  "keywordClasses": [
+    {
+      "name": "Utils",
+      "keywordMethods": [
+        {
+          "name": "randomNumber",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
