@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "C07DC1A3F0F1186999664B82D2A1DC0E",
+  "keywordFileContentHash": "6DF8911E953AEFD39CCA64E3D60C123E",
   "keywordClasses": [
     {
-      "name": "LoginSteps",
+      "name": "OrdersSteps",
       "keywordMethods": []
     }
   ],

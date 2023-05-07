@@ -19,4 +19,9 @@
       <initValue>'https://alta-shop.vercel.app/auth/register'</initValue>
       <name>register</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://alta-shop.vercel.app/transaction'</initValue>
+      <name>transactions</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

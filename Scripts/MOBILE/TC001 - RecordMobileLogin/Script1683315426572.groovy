@@ -17,5 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/Register/Register.feature')
-//CucumberKW.runWithCucumberRunner(Runners.class)
+Mobile.startApplication('/Users/jasmine/Documents/app-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/MOBILE/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/MOBILE/android.widget.EditText - Email'), 0)
+
+Mobile.setText(findTestObject('Object Repository/MOBILE/android.widget.EditText - Email (1)'), 'someone@mail.com', 0)
+
+Mobile.tap(findTestObject('Object Repository/MOBILE/android.widget.EditText - Password'), 0)
+
+Mobile.setText(findTestObject('Object Repository/MOBILE/android.widget.EditText - Password (1)'), '123123', 0)
+
+Mobile.tap(findTestObject('Object Repository/MOBILE/android.widget.Button (1)'), 0)
+
+Mobile.delay(30)
+
+Mobile.closeApplication()
+
