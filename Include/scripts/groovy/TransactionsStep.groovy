@@ -145,7 +145,7 @@ class TransactionsStep {
 		WebUI.navigateToUrl(GlobalVariable.transactions)
 		WebUI.verifyElementVisible(findTestObject('Object Repository/WEB/OR030 - VerifyLabelTransactions'))
 		WebUI.click(findTestObject('Object Repository/WEB/OR034 - ClickBtnPagination'))
-		WebUI.click(findTestObject('Object Repository/WEB/OR036 - Pagination5'))
+		WebUI.click(findTestObject('Object Repository/WEB/OR037 - PaginationAll'))
 		WebUI.delay(5)
 		WebUI.takeScreenshot()
 	}

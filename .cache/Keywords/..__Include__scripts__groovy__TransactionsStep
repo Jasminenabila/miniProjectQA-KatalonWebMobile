@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "F5A5141B2BA49AF7EA4E495B6BF61BD9",
+  "keywordFileContentHash": "2FCDFD7CCAAB1AD8427B0397364507E0",
   "keywordClasses": [
     {
       "name": "TransactionsStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
