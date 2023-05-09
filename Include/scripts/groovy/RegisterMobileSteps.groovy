@@ -82,22 +82,21 @@ class RegisterMobileSteps {
 		if(status == 'positive') {
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - Alex Under, Fullname'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - Alex Under, Fullname'), fullname+" "+nameFaker, 30)
-			
+
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - alexemail.com, Email'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - alexemail.com, Email'), email+" "+nameFaker+"@alterra.com", 30)
-			
+
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - 123123123, Password'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - 123123123, Password'), password+" "+passwordFaker,30)
 			Mobile.takeScreenshot('/Users/jasmine/Katalon Studio/alterra-testing/Images/screenshot-InputFormSuccess.png', FailureHandling.STOP_ON_FAILURE)
-			
 		}
 		else {
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - Alex Under, Fullname'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - Alex Under, Fullname'), fullname, 30)
-			
+
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - alexemail.com, Email'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - alexemail.com, Email'), email, 30)
-			
+
 			Mobile.tap(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - 123123123, Password'), 30)
 			Mobile.setText(findTestObject('Object Repository/MOBILE/record/android.widget.EditText - 123123123, Password'), password,30)
 			Mobile.takeScreenshot('/Users/jasmine/Katalon Studio/alterra-testing/Images/screenshot-InputFormFailed.png', FailureHandling.STOP_ON_FAILURE)
@@ -117,6 +116,5 @@ class RegisterMobileSteps {
 			Mobile.delay(3)
 			Mobile.takeScreenshot('/Users/jasmine/Katalon Studio/alterra-testing/Images/screenshot-registerError.png', FailureHandling.STOP_ON_FAILURE)
 		}
-		Mobile.closeApplication()
 	}
 }
