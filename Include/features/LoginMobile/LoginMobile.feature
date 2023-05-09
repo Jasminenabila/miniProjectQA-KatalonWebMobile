@@ -32,5 +32,5 @@ Feature: Login Mobile
       | someone@mail.com      |   123123 | positive | login with data valid |
       |                       |          | negative | all field empty       |
       | alterraqa@alterra.com | alta     | negative | not registered        |
-      |                       | alta*()  | negative | email invalid format  |
+      |                       |   123123 | negative | email empty           |
       | someone@mail.com      |          | negative | password empty        |

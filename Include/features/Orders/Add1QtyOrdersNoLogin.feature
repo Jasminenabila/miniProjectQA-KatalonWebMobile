@@ -20,7 +20,7 @@
 Feature: Orders
   as a user, i want to orders products on alta shop
 
-  Scenario: Add orders with login
+  Scenario: Add orders with 1 qty no login
     Given User open dashboard alta shop
     When User click button beli on dashboard alta shop orders scenario
     And User verify badge add to cart on order page

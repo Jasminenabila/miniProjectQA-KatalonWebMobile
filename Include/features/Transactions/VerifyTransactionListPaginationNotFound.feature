@@ -20,7 +20,7 @@
 Feature: Transactions
   as a user, i want to access product alta shop menu transactions history list
     
-  Scenario: See List Transactions pagination all
+  Scenario: See List Transactions pagination not found
     Given User login before have data not found on see transactions
     When User redirect to menu transactions
     Then User verify not found

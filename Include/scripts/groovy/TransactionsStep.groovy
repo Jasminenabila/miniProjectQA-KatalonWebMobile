@@ -56,6 +56,7 @@ class TransactionsStep {
 		WebUI.navigateToUrl(GlobalVariable.url)
 		WebUI.navigateToUrl(GlobalVariable.login)
 		WebUI.delay(3)
+		WebUI.maximizeWindow()
 		WebUI.verifyElementPresent(findTestObject('Object Repository/WEB/OR006 - InputEmailLogin'), 30)
 		WebUI.setText(findTestObject('Object Repository/WEB/OR006 - InputEmailLogin'), 'KMAlterra@alterra.com')
 		WebUI.setText(findTestObject('Object Repository/WEB/OR008 - InputPasswordLogin'), 'Password123')

@@ -58,6 +58,7 @@ class RegisterSteps {
 	@Given("User open website alterra")
 	public void user_open_website_alterra() {
 		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.url)
 	}
 
@@ -91,7 +92,7 @@ class RegisterSteps {
 			WebUI.setText(findTestObject('Object Repository/WEB/OR004 - InputPassword'), password)
 
 		}
-
+		WebUI.takeScreenshot()
 	}
 
 	@Then("User click button register and verify based on (.*)")

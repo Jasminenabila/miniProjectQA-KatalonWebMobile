@@ -52,6 +52,7 @@ class LoginSteps {
 	public void user_open_website_alta_shop() {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl(GlobalVariable.url)
+		WebUI.maximizeWindow()
 	}
 
 	@When("User make sure website alta shop has been successfully loaded")
